@@ -1,4 +1,4 @@
-java-validator
+javascript-validator
 ==============
 
 Written in JavaScript/jQuery, this plugin will help you dynamically validate HTML fields. I made this plugin long ago and now decided to share it.
