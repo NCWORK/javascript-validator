@@ -2,11 +2,11 @@ java-validator
 ==============
 
 Written in JavaScript/jQuery, this plugin will help you dynamically validate HTML fields. I made this plugin long ago and now decided to share it.
-            You just include "JV.js" the same way you include any JS file in your website. Something like:
+You just include "JV.js" the same way you include any JS file in your website. Something like:
             <script src="/JV.js"></script>
-            With that and jQuery included you have the ability to set restrictions to your field. To do that, you simply need to add the "data-jv" attribute to the field, with the restrictions in separated by a space.
-            
-            See this example that makes the field required and also requires that there are no spaces at beginning and end:
+With that and jQuery included you have the ability to set restrictions to your field. To do that, you simply need to add the "data-jv" attribute to the field, with the restrictions in separated by a space.
+
+See this example that makes the field required and also requires that there are no spaces at beginning and end:
             <input type="text" name="any_name" data-jv="required no_trim">
 Some checks like for maximum, minumum length and file queries require parameters. You pass those parameters like in functions. Example:
             <input type="text" name="any_name" data-jv="min_length(6) file(example.php)">
