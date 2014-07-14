@@ -17,6 +17,7 @@ Some checks like for maximum, minumum length and file queries require parameters
 <input type="text" name="any_name" data-jv="min_length(6) file(example.php)">
 ```
 __Custom checks__
+
 If none of the checks suite your needs, you can create a custom check. To do that, you need to:
 
 1. Extend the "jv" object with a function that performs the check
