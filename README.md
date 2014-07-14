@@ -33,5 +33,5 @@ You use custom checks the same way:
 jv object in "JV.js" has the validations as independant functions and you can look in it to get more ideas on validation functions.
 To change the __error messages__ you can edit the __jv_errors__ class in __JV.js__. You can add php stuff to add __multi-language__ support there.
 __Multi-templating__ is also supported. See
-            var jv_err_open = '<span style="color:red" id="jv_error">';
+            `var jv_err_open = '<span style="color:red" id="jv_error">';`
 in JV.js
